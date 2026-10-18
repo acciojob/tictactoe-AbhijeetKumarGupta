@@ -8,6 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+  <form id="player-form">
+    <input type="text" id="player-1" placeholder="Player 1 name" required>
+    <input type="text" id="player-2" placeholder="Player 2 name" required>
+    <button type="submit" id="submit">Start Game</button>
+  </form>
+
+  <div id="game" style="display: none;">
+    <h1>Tic Tac Toe</h1>
+    <div class="message"></div>
+    <div class="board">
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+      <div class="cell" id="9"></div>
+    </div>
+    <button type="button" id="restart">Restart</button>
+  </div>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
